@@ -84,8 +84,10 @@ const twConfig = {
 //   exclude: [],
 // });
 
-module.exports = buildTailwindConfig({
-  twConfig,
-  resolver: (pkgName) => require.resolve(pkgName),
-  // prefer: ['@bodiless/vital-elements'],
-});
+module.exports = twConfig;
+
+// module.exports = buildTailwindConfig({
+//   twConfig,
+//   resolver: (pkgName) => require.resolve(pkgName),
+//   // prefer: ['@bodiless/vital-elements'],
+// });
