@@ -77,7 +77,7 @@
     "lodash" "^4.17.19"
     "uuid" "^3.3.2"
 
-"@bodiless/cli@1.0.0-canary-1952-680.0+e7ab5b2":
+"@bodiless/cli@1.0.0-canary-1952-680.0", "@bodiless/cli@1.0.0-canary-1952-680.0+e7ab5b2":
   "integrity" "sha512-7qdljf9LJmWOBd4PHkdFJhLGShpcob2GR+4Fz0hdfjgKu9WVQNDrun1sQPOJ8T4N7utqPsg/JbGja0jNd3B4rw=="
   "resolved" "https://registry.npmjs.org/@bodiless/cli/-/cli-1.0.0-canary-1952-680.0.tgz"
   "version" "1.0.0-canary-1952-680.0"
@@ -1195,9 +1195,9 @@
   "version" "2.0.1"
 
 "caniuse-lite@^1.0.30001283", "caniuse-lite@^1.0.30001297", "caniuse-lite@^1.0.30001312":
-  "integrity" "sha512-Wiz1Psk2MEK0pX3rUzWaunLTZzqS2JYZFzNKqAiJGiuxIjRPLgV6+VDPOg6lQOUxmDwhTlh198JsTTi8Hzw6aQ=="
-  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001312.tgz"
-  "version" "1.0.30001312"
+  "integrity" "sha512-06wzzdAkCPZO+Qm4e/eNghZBDfVNDsCgw33T27OwBH9unE9S478OYw//Q2L7Npf/zBzs7rjZOszIFQkwQKAEqA=="
+  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001416.tgz"
+  "version" "1.0.30001416"
 
 "chalk@^2.0.0", "chalk@^2.4.1", "chalk@^2.4.2":
   "integrity" "sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ=="
@@ -1833,6 +1833,11 @@
   dependencies:
     "esrecurse" "^4.3.0"
     "estraverse" "^4.1.1"
+
+"esm@^3.2.25":
+  "integrity" "sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA=="
+  "resolved" "https://registry.npmjs.org/esm/-/esm-3.2.25.tgz"
+  "version" "3.2.25"
 
 "esrecurse@^4.3.0":
   "integrity" "sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag=="

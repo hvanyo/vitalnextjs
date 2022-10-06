@@ -1,4 +1,10 @@
-module.exports = {
+const requireEsm = require('esm')(module);
+
+const { buildTailwindConfig } = requireEsm(
+  '@bodiless/fclasses'
+);
+
+const twConfig = {
   content: [
     './src/components/**/*.{ts,tsx,js,jsx}', 
     './src/pages/**/*.{ts,tsx,js,jsx}',
@@ -67,4 +73,19 @@ module.exports = {
   },
   variants: {},
   plugins: [],
-}
+};
+
+// Get configs sorted by precedence and/or exclude some packages:
+// const getTwConfig = () => getPackageTailwindConfig({
+//   pkgJson,
+//   twConfig,
+//   resolver,
+//   prefer: ['@bodiless/vital-elements', '@bodiless/vital-card-core'],
+//   exclude: [],
+// });
+
+module.exports = buildTailwindConfig({
+  twConfig,
+  resolver: (pkgName) => require.resolve(pkgName),
+  // prefer: ['@bodiless/vital-elements'],
+});
