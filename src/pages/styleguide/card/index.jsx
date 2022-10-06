@@ -107,7 +107,7 @@ const CardPage = () => (
 <Layout>
 <SEO title="Card" />
 <H1title>Card Page</H1title>
-<p>Replication of Bodiless:Vital Design Card Page</p>
+<p>Replication of Bodiless:Vital Design Card Page using Next.js</p>
 <Div className="md:w-1/2 mb-8">
   <Subtitle>Default Card</Subtitle>
   <ExternalCard />
