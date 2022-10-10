@@ -6,7 +6,7 @@ import {
   CardCleanNonEditable, vitalCardCore, asExternalBaseCard, asExternalHeroCard
 } from '@bodiless/vital-card-core';
 import { vitalTypography } from '@bodiless/vital-elements';
-// import Layout from '../../components/layout';
+import Layout from '../../../components/layout';
 // import Seo from '../../components/seo';
 
 const WithExtSrc = asExternalBaseCard({
@@ -100,35 +100,35 @@ const HeroExternalSecondaryButtonCard = as(
 
 const H1title = as(vitalTypography.H1, 'pt-4')(H1);
 const Subtitle = as(vitalTypography.H2, 'pt-4')(H2);
-const Layout = as()(Div);
+
 const SEO = as()(Div);
 
 const CardPage = () => (
 <Layout>
-<SEO title="Card" />
-<H1title>Card Page</H1title>
-<p>Replication of Bodiless:Vital Design Card Page using Next.js</p>
-<Div className="md:w-1/2 mb-8">
-  <Subtitle>Default Card</Subtitle>
-  <ExternalCard />
-  <Subtitle>Vertical Card</Subtitle>
-  <VerticalCard />
-</Div>
-<Subtitle>Horizontal Card Variations</Subtitle>
-<Div className="md:w-2/3 mb-8">
-  <Subtitle>Left Image : Content Top Aligned </Subtitle>
-  <HorizontalLeftCard />
-  <Subtitle>Left Image : Content Centered</Subtitle>
-  <HorizontalLeftImageCenteredContentCard />
-  <Subtitle>Right Image : Content Top Aligned </Subtitle>
-  <HorizontalRightCard />
-  <Subtitle>Right Image : Content Centered</Subtitle>
-  <HorizontalRightImageCenteredContentCard />
-</Div>
-<Subtitle>Hero Card Variations</Subtitle>
-<HeroExternalCard />
-<HeroExternalPrimaryButtonCard />
-<HeroExternalSecondaryButtonCard />
+  <SEO title="Card" />
+  <H1title>Card Page</H1title>
+  <p>Replication of Bodiless:Vital Design Card Page using Next.js</p>
+  <Div className="md:w-1/2 mb-8">
+    <Subtitle>Default Card</Subtitle>
+    <ExternalCard />
+    <Subtitle>Vertical Card</Subtitle>
+    <VerticalCard />
+  </Div>
+  <Subtitle>Horizontal Card Variations</Subtitle>
+  <Div className="md:w-2/3 mb-8">
+    <Subtitle>Left Image : Content Top Aligned </Subtitle>
+    <HorizontalLeftCard />
+    <Subtitle>Left Image : Content Centered</Subtitle>
+    <HorizontalLeftImageCenteredContentCard />
+    <Subtitle>Right Image : Content Top Aligned </Subtitle>
+    <HorizontalRightCard />
+    <Subtitle>Right Image : Content Centered</Subtitle>
+    <HorizontalRightImageCenteredContentCard />
+  </Div>
+  <Subtitle>Hero Card Variations</Subtitle>
+  <HeroExternalCard />
+  <HeroExternalPrimaryButtonCard />
+  <HeroExternalSecondaryButtonCard />
 </Layout>
 );
 
