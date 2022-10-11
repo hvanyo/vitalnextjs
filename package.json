@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
@@ -13,9 +14,7 @@
     "@bodiless/vital-buttons-core": "1.0.0-canary-1952-686.0",
     "@bodiless/vital-card-core": "1.0.0-canary-1952-686.0",
     "@bodiless/vital-elements": "1.0.0-canary-1952-686.0",
-    "@bodiless/vital-layout-core": "1.0.0-canary-1952-686.0",
     "@bodiless/vital-link-core": "1.0.0-canary-1952-686.0",
-    "@bodiless/vital-navigation-core": "1.0.0-canary-1952-686.0",
     "esm": "^3.2.25",
     "next": "12.1.0",
     "next-compose-plugins": "^2.2.1",

@@ -5,19 +5,19 @@ const withPlugins = require("next-compose-plugins");
 // code transpilation from NPM modules using ES6 imports
 // https://github.com/martpie/next-transpile-modules
 const withTM = require('next-transpile-modules')([
-  '@bodiless/accordion', // Need to remove
-  '@bodiless/card', // Need to remove
-  '@bodiless/components', // Need to remove
-  '@bodiless/core', // Need to remove
+  // '@bodiless/accordion', // Need to remove
+  // '@bodiless/card', // Need to remove
+  // '@bodiless/components', // Need to remove
+  // '@bodiless/core', // Need to remove
   '@bodiless/fclasses', 
-  '@bodiless/layouts', // Need to remove
-  '@bodiless/navigation',
+  // '@bodiless/layouts', // Need to remove
+  // '@bodiless/navigation',
   '@bodiless/vital-buttons-core',
   '@bodiless/vital-card-core',
   '@bodiless/vital-elements',
-  '@bodiless/vital-layout-core',  
+  // '@bodiless/vital-layout-core',  
   '@bodiless/vital-link-core',
-  '@bodiless/vital-navigation-core',
+  // '@bodiless/vital-navigation-core',
 ]); // pass the modules you would like to see transpiled
 
 // HACK to avoid bringing in editor styles from @bodiless/layout
