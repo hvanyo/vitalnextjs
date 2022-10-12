@@ -16,7 +16,7 @@
     "@bodiless/vital-layout-core": "1.0.0-canary-1952-686.0",
     "@bodiless/vital-link-core": "1.0.0-canary-1952-686.0",
     "@bodiless/vital-navigation-core": "1.0.0-canary-1952-686.0",
-    "@stackbit/cms-contentful": "^0.0.28",
+    "@plasmicapp/loader-nextjs": "^1.0.187",
     "contentful": "^9.2.5",
     "esm": "^3.2.25",
     "markdown-to-jsx": "^7.1.7",
