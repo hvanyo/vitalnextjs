@@ -1,17 +1,11 @@
-import Head from 'next/head'
-import { AppProps } from 'next/app'
+import type { AppProps } from 'next/app'
+import '../components/widgets';
 import '../styles/index.css'
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <>
-      <Head>
-        <title>NextJS TailwindCSS TypeScript Starter</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-      <Component {...pageProps} />
-    </>
-  )
-}
+import { builder } from '@builder.io/react'
 
-export default MyApp
+builder.init(process.env.BUILDER_API_KEY || 'waiting');
+
+export default function MyApp({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />
+}

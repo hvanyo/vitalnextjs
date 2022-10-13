@@ -16,6 +16,7 @@
     "@bodiless/vital-layout-core": "1.0.0-canary-1952-686.0",
     "@bodiless/vital-link-core": "1.0.0-canary-1952-686.0",
     "@bodiless/vital-navigation-core": "1.0.0-canary-1952-686.0",
+    "@builder.io/react": "^2.0.9",
     "esm": "^3.2.25",
     "next": "12.1.0",
     "next-compose-plugins": "^2.2.1",
