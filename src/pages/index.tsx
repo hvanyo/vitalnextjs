@@ -30,6 +30,7 @@ export default function Home() {
             <h2>Visit here to see examples of Vital Cards:</h2>
             <CardButton />
           </div>
+          Test Change
         </main>
       </div>
     </Layout>      
