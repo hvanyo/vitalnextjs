@@ -27,7 +27,16 @@ const removeImports = require('next-remove-imports')({
   matchImports: "\\.(less|css|scss|sass|styl)$"
 });
 
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    domains: ['images.ctfassets.net'],
+  },
+};
+
 module.exports = withPlugins([
   withTM({}),
-  removeImports
+  removeImports,
+  nextConfig
 ]);
