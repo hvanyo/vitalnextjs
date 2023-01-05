@@ -17,6 +17,7 @@
 
 # misc
 .DS_Store
+.stackbit
 
 # debug
 npm-debug.log*
